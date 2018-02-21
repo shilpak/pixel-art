@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    margin-top: 5%;
+   height: 100%;
+  background:url("http://images.freecreatives.com/wp-content/uploads/2016/02/Parchment-Paper-Texture-Free-Graph-HD-Wallpaper.jpg");
+}
+
+.main-wrapper {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(104, 103, 103);
+  
+}
+
+.inner-wrapper {
+    margin: 10px 10px 10px 10px;
+    border: 1px solid rgb(128, 0, 128);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0.2em;
+    }
+
+h2 {
+    margin: 1em 0 0.25em;
+  }
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+input[type=color] {
+width: 10%;  
+border-radius: 15px;
+}
+
+p {
+  color: blue;
+}
